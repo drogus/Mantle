@@ -1,2 +1,3 @@
 language: objective-c
 script: xcodebuild -scheme "Mantle Mac" clean build test
+
