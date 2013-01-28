@@ -1,5 +1,3 @@
 language: objective-c
-env:
-  - OSX_VERSION=macosx10.8
-script: xcodebuild -scheme "Mantle Mac" -sdk $OSX_VERSION clean build test
+script: xcodebuild -scheme "Mantle Mac" -sdk macosx10.8 clean build test
 
