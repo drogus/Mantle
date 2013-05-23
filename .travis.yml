@@ -1,5 +1,5 @@
 language: objective-c
 project: Mantle.xcodeproj
-scheme: "Mantle Mac"
-xctool_args: "-sdk macosx"
+scheme: "Mantle iOS"
+xctool_args: "-sdk iphonesimulator"
 install: "./script/bootstrap"
