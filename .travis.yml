@@ -1,3 +1,5 @@
 language: objective-c
 project: Mantle.xcodeproj
 scheme: "Mantle Mac"
+xctool_args: "-sdk macosx"
+install: "./script/bootstrap"
